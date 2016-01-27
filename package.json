@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Absurdly awesome version control",
   "main": "index.js",
+  "bin": {
+    "camus": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
