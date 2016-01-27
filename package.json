@@ -2,9 +2,9 @@
   "name": "camus",
   "version": "1.0.0",
   "description": "Absurdly awesome version control",
-  "main": "index.js",
+  "main": "./index.js",
   "bin": {
-    "camus": "./cli.js"
+    "camus": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ndemonner/camus/issues"
   },
-  "homepage": "https://github.com/ndemonner/camus#readme"
+  "homepage": "https://github.com/ndemonner/camus#readme",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
 }
