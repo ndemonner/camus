@@ -1,0 +1,19 @@
+{
+  "name": "camus",
+  "version": "1.0.0",
+  "description": "Absurdly awesome version control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndemonner/camus.git"
+  },
+  "author": "Nick DeMonner",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ndemonner/camus/issues"
+  },
+  "homepage": "https://github.com/ndemonner/camus#readme"
+}
